@@ -3,7 +3,10 @@
 {
 	"name": "Python 3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:0-3.8",
+	// "image": "mcr.microsoft.com/devcontainers/python:0-3.8",
+
+	"dockerFile": "Dockerfile",
+	"context": "..",
 	"features": {
 		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
 	},
